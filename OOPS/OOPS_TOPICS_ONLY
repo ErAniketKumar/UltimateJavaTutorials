@@ -1,0 +1,280 @@
+🔰 1. Introduction to OOP in Java
+What is OOP?
+
+Benefits of OOP
+
+OOP vs Procedural Programming
+
+Java as an OOP Language
+
+⚙️ 2. Four Pillars of OOP
+a. Encapsulation
+Definition & Purpose
+
+Access Modifiers (private, public, protected, default)
+
+Getters and Setters
+
+JavaBeans convention
+
+b. Abstraction
+Abstract Classes
+
+Abstract Methods
+
+Interfaces
+
+Difference between Abstract Class and Interface
+
+Real-life use cases
+
+c. Inheritance
+extends keyword
+
+Single Inheritance
+
+Multilevel Inheritance
+
+Hierarchical Inheritance
+
+Constructor behavior in Inheritance
+
+super keyword (access parent class method/constructor)
+
+Method Overriding
+
+IS-A vs HAS-A relationship
+
+Composition vs Inheritance
+
+d. Polymorphism
+Compile-Time Polymorphism (Method Overloading)
+
+Runtime Polymorphism (Method Overriding)
+
+Rules of Overloading and Overriding
+
+Covariant return types
+
+Dynamic Method Dispatch (Important)
+
+🔍 3. Keywords in OOP Context
+super keyword
+
+this keyword
+
+final keyword (with class, method, variable)
+
+static keyword (with methods, blocks, variables, nested classes)
+
+abstract
+
+implements
+
+instanceof keyword
+
+transient, volatile (advanced)
+
+🧱 4. Class and Object Fundamentals
+Declaring a class
+
+Creating objects
+
+Class vs Object
+
+Fields and Methods
+
+Constructors
+
+Default Constructor
+
+Parameterized Constructor
+
+Constructor Overloading
+
+Constructor Chaining (this() and super())
+
+🔁 5. Method Overloading & Overriding
+Method Signature
+
+Overloading with different parameters
+
+Overriding Rules
+
+Use of @Override annotation
+
+Access modifier rules in overriding
+
+Exception handling in overriding
+
+🧬 6. Dynamic Method Dispatch
+What is Dynamic Dispatch?
+
+How JVM resolves method calls at runtime
+
+Upcasting
+
+Runtime polymorphism
+
+Use in real-world systems
+
+🔄 7. Static Concepts
+Static Variables
+
+Static Methods
+
+Static Blocks
+
+Static Classes (nested)
+
+Static Initialization Block
+
+🚫 8. final Keyword
+final Variable (constant)
+
+final Method (cannot override)
+
+final Class (cannot extend)
+
+Use cases of final
+
+🎭 9. Nested and Inner Classes
+Member Inner Class
+
+Static Nested Class
+
+Local Inner Class
+
+Anonymous Inner Class
+
+Access rules and use cases
+
+🧵 10. Object Class (Root of All Classes)
+toString()
+
+equals()
+
+hashCode()
+
+getClass()
+
+clone()
+
+finalize() (deprecated but good to know)
+
+🧠 11. Java Memory Management (Important for OOP)
+Stack vs Heap memory
+
+Garbage Collection in Java
+
+How Objects are created and destroyed
+
+Reachability and GC roots
+
+System.gc() and finalize() method
+
+🧩 12. Interface & Multiple Inheritance in Java
+Interfaces before Java 8
+
+Default methods in Java 8
+
+Static methods in Interface
+
+Functional Interface
+
+Lambda Expressions (Java 8)
+
+@FunctionalInterface annotation
+
+🧱 13. Abstract Classes
+Abstract vs Concrete
+
+When to use abstract class
+
+Abstract methods and inheritance
+
+🔁 14. Constructors - Advanced
+Constructor chaining
+
+Inheritance with constructors
+
+Object initialization order
+
+📚 15. Object Class vs Custom Classes
+Comparing default behavior of Object methods
+
+Overriding equals() and hashCode()
+
+🧠 16. Design Principles (SOLID Principles)
+S – Single Responsibility Principle
+
+O – Open/Closed Principle
+
+L – Liskov Substitution Principle
+
+I – Interface Segregation Principle
+
+D – Dependency Inversion Principle
+
+🛠️ 17. Design Patterns (OOP Based)
+Singleton Pattern
+
+Factory Pattern
+
+Builder Pattern
+
+Strategy Pattern
+
+Observer Pattern
+
+Adapter Pattern
+
+Decorator Pattern
+
+MVC Pattern
+
+🔄 18. Association, Aggregation, and Composition
+Association (general relationship)
+
+Aggregation (HAS-A, weak relationship)
+
+Composition (strong containment)
+
+📚 19. Access Modifiers Recap
+public
+
+private
+
+protected
+
+default (package-private)
+
+🎲 20. Advanced Topics
+Immutable Objects
+
+Record Classes (Java 14+)
+
+Enum with OOP behavior
+
+Cloning (Shallow vs Deep)
+
+Comparable and Comparator interfaces
+
+Reflection API (runtime access to classes)
+
+Serialization and Deserialization (Serializable interface)
+
+Type Erasure and Generics
+
+Method Reference (Java 8)
+
+🛑 21. Common Mistakes and Best Practices
+Overriding vs Overloading confusion
+
+Misuse of == vs .equals()
+
+Breaking encapsulation
+
+Not using interfaces or abstract classes properly
+
+Overuse of inheritance
